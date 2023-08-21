@@ -11,7 +11,6 @@ from lxml import etree
 
 from .ns import NamespacePrefixedTag, nsmap
 
-
 # configure XML parser
 element_class_lookup = etree.ElementNamespaceClassLookup()
 oxml_parser = etree.XMLParser(remove_blank_text=True, resolve_entities=False)
@@ -167,8 +166,8 @@ from .table import (  # noqa
     CT_Tc,
     CT_TcPr,
     CT_TrPr,
-    CT_VMerge,
     CT_VerticalJc,
+    CT_VMerge,
 )
 
 register_element_cls("w:bidiVisual", CT_OnOff)
@@ -252,7 +251,7 @@ register_element_cls("w:tab", CT_TabStop)
 register_element_cls("w:tabs", CT_TabStops)
 register_element_cls("w:widowControl", CT_OnOff)
 
-from .text.run import CT_Br, CT_R, CT_Text  # noqa
+from .text.run import CT_R, CT_Br, CT_Text  # noqa
 
 register_element_cls("w:br", CT_Br)
 register_element_cls("w:r", CT_R)

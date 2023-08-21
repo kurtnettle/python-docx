@@ -11,10 +11,10 @@ import pytest
 from docx.enum.style import WD_STYLE_TYPE
 from docx.styles.style import (
     BaseStyle,
-    _CharacterStyle,
-    _ParagraphStyle,
-    _NumberingStyle,
     StyleFactory,
+    _CharacterStyle,
+    _NumberingStyle,
+    _ParagraphStyle,
     _TableStyle,
 )
 from docx.text.font import Font

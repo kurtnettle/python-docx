@@ -4,11 +4,11 @@
 
 from __future__ import absolute_import, division, print_function, unicode_literals
 
-from . import parse_xml
 from ..enum.table import WD_CELL_VERTICAL_ALIGNMENT, WD_ROW_HEIGHT_RULE
 from ..exceptions import InvalidSpanError
-from .ns import nsdecls, qn
 from ..shared import Emu, Twips
+from . import parse_xml
+from .ns import nsdecls, qn
 from .simpletypes import (
     ST_Merge,
     ST_TblLayoutType,
@@ -22,8 +22,8 @@ from .xmlchemy import (
     OneOrMore,
     OptionalAttribute,
     RequiredAttribute,
-    ZeroOrOne,
     ZeroOrMore,
+    ZeroOrOne,
 )
 
 

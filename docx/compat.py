@@ -28,6 +28,7 @@ if sys.version_info >= (3, 0):
 
 else:
     from collections import Sequence  # noqa
+
     from StringIO import StringIO as BytesIO  # noqa
 
     def is_string(obj):

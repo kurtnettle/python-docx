@@ -13,7 +13,6 @@ from docx.image.jpeg import Exif, Jfif
 from docx.image.png import Png
 from docx.image.tiff import Tiff
 
-
 SIGNATURES = (
     # class, offset, signature_bytes
     (Png, 0, b"\x89PNG\x0D\x0A\x1A\x0A"),

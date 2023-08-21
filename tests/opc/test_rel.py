@@ -11,9 +11,9 @@ import pytest
 from docx.opc.oxml import CT_Relationships
 from docx.opc.packuri import PackURI
 from docx.opc.part import Part
-from docx.opc.rel import _Relationship, Relationships
+from docx.opc.rel import Relationships, _Relationship
 
-from ..unitutil.mock import call, class_mock, instance_mock, Mock, patch, PropertyMock
+from ..unitutil.mock import Mock, PropertyMock, call, class_mock, instance_mock, patch
 
 
 class Describe_Relationship(object):

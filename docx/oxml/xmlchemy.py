@@ -7,9 +7,9 @@ element classes.
 
 from __future__ import absolute_import
 
-from lxml import etree
-
 import re
+
+from lxml import etree
 
 from docx.compat import Unicode
 from docx.oxml import OxmlElement

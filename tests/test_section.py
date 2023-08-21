@@ -9,7 +9,7 @@ import pytest
 from docx.enum.section import WD_HEADER_FOOTER, WD_ORIENT, WD_SECTION
 from docx.parts.document import DocumentPart
 from docx.parts.hdrftr import FooterPart, HeaderPart
-from docx.section import _BaseHeaderFooter, _Footer, _Header, Section, Sections
+from docx.section import Section, Sections, _BaseHeaderFooter, _Footer, _Header
 from docx.shared import Inches
 
 from .unitutil.cxml import element, xml

@@ -6,8 +6,8 @@ Latent style-related objects.
 
 from __future__ import absolute_import, division, print_function, unicode_literals
 
-from . import BabelFish
 from ..shared import ElementProxy
+from . import BabelFish
 
 
 class LatentStyles(ElementProxy):

@@ -6,7 +6,7 @@ from __future__ import absolute_import, division, print_function, unicode_litera
 
 import pytest
 
-from docx.document import _Body, Document
+from docx.document import Document, _Body
 from docx.enum.section import WD_SECTION
 from docx.enum.text import WD_BREAK
 from docx.opc.coreprops import CoreProperties

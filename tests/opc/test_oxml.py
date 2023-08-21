@@ -16,10 +16,10 @@ from docx.oxml.xmlchemy import serialize_for_reading
 
 from .unitdata.rels import (
     a_Default,
-    an_Override,
     a_Relationship,
     a_Relationships,
     a_Types,
+    an_Override,
 )
 
 

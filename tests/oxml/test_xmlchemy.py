@@ -16,15 +16,15 @@ from docx.oxml.simpletypes import BaseIntType
 from docx.oxml.xmlchemy import (
     BaseOxmlElement,
     Choice,
-    serialize_for_reading,
-    OneOrMore,
     OneAndOnlyOne,
+    OneOrMore,
     OptionalAttribute,
     RequiredAttribute,
+    XmlString,
     ZeroOrMore,
     ZeroOrOne,
     ZeroOrOneChoice,
-    XmlString,
+    serialize_for_reading,
 )
 
 from ..unitdata import BaseBuilder

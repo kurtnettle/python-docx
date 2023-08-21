@@ -8,9 +8,9 @@ from __future__ import absolute_import, division, print_function, unicode_litera
 
 from datetime import datetime
 
+from ...oxml.coreprops import CT_CoreProperties
 from ..constants import CONTENT_TYPE as CT
 from ..coreprops import CoreProperties
-from ...oxml.coreprops import CT_CoreProperties
 from ..packuri import PackURI
 from ..part import XmlPart
 

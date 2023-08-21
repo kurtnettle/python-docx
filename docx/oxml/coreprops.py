@@ -5,7 +5,6 @@
 from __future__ import absolute_import, division, print_function, unicode_literals
 
 import re
-
 from datetime import datetime, timedelta
 
 from docx.compat import is_string

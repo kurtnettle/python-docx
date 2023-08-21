@@ -10,12 +10,12 @@ from docx.compat import BytesIO
 from docx.image.constants import JPEG_MARKER_CODE, MIME_TYPE
 from docx.image.helpers import BIG_ENDIAN, StreamReader
 from docx.image.jpeg import (
-    _App0Marker,
-    _App1Marker,
     Exif,
     Jfif,
-    _JfifMarkers,
     Jpeg,
+    _App0Marker,
+    _App1Marker,
+    _JfifMarkers,
     _Marker,
     _MarkerFactory,
     _MarkerFinder,

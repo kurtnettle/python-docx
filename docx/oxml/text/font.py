@@ -4,9 +4,9 @@
 Custom element classes related to run properties (font).
 """
 
-from .. import parse_xml
 from ...enum.dml import MSO_THEME_COLOR
 from ...enum.text import WD_COLOR, WD_UNDERLINE
+from .. import parse_xml
 from ..ns import nsdecls, qn
 from ..simpletypes import ST_HexColor, ST_HpsMeasure, ST_String, ST_VerticalAlignRun
 from ..xmlchemy import BaseOxmlElement, OptionalAttribute, RequiredAttribute, ZeroOrOne

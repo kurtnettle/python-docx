@@ -6,7 +6,8 @@ from __future__ import absolute_import, division, print_function, unicode_litera
 
 import pytest
 
-from docx.opc.constants import CONTENT_TYPE as CT, RELATIONSHIP_TYPE as RT
+from docx.opc.constants import CONTENT_TYPE as CT
+from docx.opc.constants import RELATIONSHIP_TYPE as RT
 from docx.opc.part import PartFactory
 from docx.package import Package
 from docx.parts.hdrftr import FooterPart, HeaderPart

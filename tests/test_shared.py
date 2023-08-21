@@ -9,7 +9,7 @@ from __future__ import absolute_import, division, print_function, unicode_litera
 import pytest
 
 from docx.opc.part import XmlPart
-from docx.shared import ElementProxy, Length, Cm, Emu, Inches, Mm, Pt, RGBColor, Twips
+from docx.shared import Cm, ElementProxy, Emu, Inches, Length, Mm, Pt, RGBColor, Twips
 
 from .unitutil.cxml import element
 from .unitutil.mock import instance_mock
